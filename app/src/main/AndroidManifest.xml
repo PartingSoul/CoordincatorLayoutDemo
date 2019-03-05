@@ -16,6 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <!-- 适配全面屏 -->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+
+        <activity
+            android:name=".NormalActivity"
+            android:theme="@style/style_no_title" />
+        <activity
+            android:name=".NormalTwoActivity"
+            android:theme="@style/style_no_title" />
     </application>
 
 </manifest>
